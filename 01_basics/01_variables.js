@@ -6,7 +6,7 @@ var accountPassword = "12345"
 
 accountCity = "jaipur"
 
-accountEmail = hec@gmail,Comment
+accountEmail = hec@gmail.Com
 
 accountPassword = "21212121"
 
