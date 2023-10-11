@@ -35,3 +35,27 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//************************************************** */
+// stack memory (primitive)  ek ke uper ek stack store hota hai
+//stack memory me refrence lene se uska copy milta hai
+
+// heap memory(non primitive) heap memory me wapas refrence lene per
+//  copy nhi milta original value milti hai
+
+ let myYoutubename = "Hiteshchaudharydotcom"
+ let anothername = myYoutubename
+  anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+  console.log( anothername );
+
+  let userone ={
+    email : "userone@gmail.com",
+    Upi : "user@ybl"
+  }
+
+   usertwo.email  = "nehachauhan@google.com"                    //object me dot  lagaka value change karte hai
+   console.log(userone.email);
+   console.log(usertwo.email);
